@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+:root{
+
+   /* Blue */
+    --color-blue-50: #88e4eb;
+    --color-blue-100: #28a3ac;
+    --color-blue-200: #075461;
+
+    --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
+}
+#body {
+    background: var(--color-gradient);
+}
+
+.container {
+    display: flex;
+    margin: 100px;
+}
+
+.box {
+    background-color: #D0D1D3; 
+    height: 100px;
+    width: 100px;
+    color: #454545;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    align-items: center;
+    display: flex;
+    border: 1px solid black;
+    padding: 25px;
+    margin-right: 10px;
+    transition: backgroud var(--color-gradient) 0.3; /* Define a transição para a propriedade background-color */
+}
+
+.box:hover {
+    background-color: #b19cd9;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: var(--color-gradient);
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    height: auto;
+    width: 70px    ;
+}
+
+.linha {
+    border: 1px solid black;
+    margin: 20px;
+}
+
+.adicional {
+    display: none;
+}
+
+.box2 {
+    background-color: #D0D1D3;
+    height: 100px;
+    width: 100px;
+    color: #454545;
+    border: 1px;
+    
+}
