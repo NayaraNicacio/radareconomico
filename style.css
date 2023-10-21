@@ -9,65 +9,76 @@
 
     --color-gradient: linear-gradient(90deg, var(--color-blue-50), var(--color-blue-100), var(--color-blue-200));
 }
+
 #body {
     background: var(--color-gradient);
 }
 
+/*Formatação do Cabeçalho*/
+header {
+    text-align: center;
+    padding: 2px;
+}
+
+.linha {
+    border: 1px solid black;
+}
+
+
+/*Formatação dos 4 Blocos*/
 .container {
     display: flex;
-    margin: 100px;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;  
 }
 
 .box {
     background-color: #D0D1D3; 
     height: 100px;
     width: 100px;
+    margin: 10px; /*Espaço entre as Divs*/
+    text-align: center;
     color: #454545;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 8px;
-    align-items: center;
-    display: flex;
     border: 1px solid black;
-    padding: 25px;
-    margin-right: 10px;
+    padding: 28px;
     transition: backgroud var(--color-gradient) 0.3; /* Define a transição para a propriedade background-color */
 }
 
-.box:hover {
-    background-color: #b19cd9;
-}
 
-header {
-    text-align: center;
-    padding: 20px;
-    background: var(--color-gradient);
-}
-
-.logo {
+/* Formatação Bloco a esquerda*/
+.container2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-}
-
-img {
-    height: auto;
-    width: 70px    ;
-}
-
-.linha {
-    border: 1px solid black;
-    margin: 20px;
-}
-
-.adicional {
-    display: none;
 }
 
 .box2 {
     background-color: #D0D1D3;
-    height: 100px;
+    height: 300px;
     width: 100px;
+    padding: 28px; /*Espaço entre as Divs*/
+    margin-left: 321px; /*Distância a esquerda*/
+    margin-top: -30px; /*Distância ao topo*/
     color: #454545;
-    border: 1px;
-    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.box2 img {
+    height: auto;
+    width: 70px;
+    margin-top: 60px;
+    background-image: url("Planta.jpg");
+}
+
+.texto {
+    height: 300px;
+    width: 700px;
+
+
 }
