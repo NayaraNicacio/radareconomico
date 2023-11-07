@@ -8,3 +8,4 @@ box.addEventListener('click', function() {
         adicional.style.display = 'none'; // Oculta o conteúdo se ele já estiver visível
     }
 });
+
