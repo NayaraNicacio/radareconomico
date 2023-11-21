@@ -81,7 +81,9 @@ h1 {
 
 .pagina {
     background-color: #d1cbcb;
-    margin: 1px solid black;
+    border: 1px solid #372174;
+    margin-left: 40px;
+    margin-right: 30px;
 }
 
 /*Transição Sublinhado*/
@@ -107,54 +109,56 @@ h1 {
     transform-origin: left;
 }
 
+/*TELA INICIAL*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-.linha {
-    border: 1px solid black;
+.inicial{
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    height: 400px;
+    width: 400px;
+    background-color:#D9D9D9;
 }
 
-
-
-/*Formatação box-superior*/
-.box-superior {
-    background-color: #d1cbcb;
-    height: 25rem;
-    width: 100%;
-    display: box;
-    justify-content: justify;
-    font-size: 25px;
-    font-family: Candara;
-    color: red;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 20px;
+.logo-tela {
+    height: 250px;
+    width: 1000px;
+    justify-content: center;
+    margin-top: 200px;
+    
 }
 
-#municipio {
-    margin: 25px 0 0 20px;
+/*TELA CADASTRO CALCULADORA*/
+
+body {
+    background-color: #E7DFD8;
 }
 
-#button-menu{
-    margin: 25px 0 0 20px;
-    height: 10%;
-}
-
-/*Formatação dos 4 Blocos*/
-.container {
+.container-blocos {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
- 
+    height: 30vh;
+    flex: 1;
+    font-size: 20px;
+    font-family: 'Josefin Sans';
+}
+
+.conteudo-calculadora {
+    margin-right: 200px;
+    font-family: 'Josefin Sans';
+}
+
+.bloco-esquerda {
+    background-color: #28a3ac;
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+}
+
+.h3 {
+    line-height: 200px;
+    text-align: center;
 }
